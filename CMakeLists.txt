@@ -17,6 +17,7 @@ include_directories(
 )
 
 # Declare the package
+find_package(ament_lint_auto)
 ament_package()
 
 # Add a shared library
